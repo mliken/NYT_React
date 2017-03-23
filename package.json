@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/mliken/NYT_React/issues"
   },
-  "homepage": "https://github.com/mliken/NYT_React#readme"
+  "homepage": "https://github.com/mliken/NYT_React#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.1",
+    "morgan": "^1.8.1",
+    "path": "^0.12.7"
+  }
 }
