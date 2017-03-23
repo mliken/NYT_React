@@ -1,81 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html class="no-js">
+>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Animaltastic</title>
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>New York Times Search!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Linking bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <!--Importing google font-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
+    <!-- This is where React will deploy the contents it generates -->
+    <div id="app"></div>
 
-    <div id="animalButtons">
-
-    </div>
-
-    
-    <form id="animal-form">
-      <label for="animal-input">Add an animal</label>
-      <input type="text" id="animal-input"><br>
-     
-      <input id="addAnimal" type="submit" value="Submit">
-    </form>
-
-
-    <div id="animals">
-
-    </div>
-    
-
-
-<script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
-<script src='hw.js'></script>
+    <!-- All of our JS code will be transpiled into this bundle.js file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="bundle.js"></script>
 </body>
-</html>
 
-<!--CSS-->
-body {
-    font: 18px arial, sans-serif;
-    background: #eee;
-}
-#animals {
-    width: 70%;
-}
-.animal-item {
-    float: left;
-    padding: 10px;
-}
-form {
-    width: 30%;
-    float: right;
-    padding: 20px;
-}
-label {
-    display: block;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-input[type="text"] {
-    width: 100%;
-    margin-bottom: 10px;
-    height: 30px;
-    font-size: 18px;
-}
-button,
-input[type="submit"] {
-    background: #659A98;
-    color: #ffffff;
-    border: 0;
-    border-radius: 5px;
-    padding: 5px 20px;
-    font-size: 18px;
-    margin: 0 10px 10px 0;
-    cursor: pointer;
-    box-shadow: 2px 2px 3px #bbb;
-}
-button:hover,
-input[type="submit"]:hover {
-    background: #334E4D;
-}
-button.active {
-    background: #334E4D;
-}
+</html>
