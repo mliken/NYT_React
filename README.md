@@ -2,13 +2,17 @@
 
 Week of 19 HW: NYT React Search
 
-Overview
+# Overview
 
-In this activity, you'll create a new React-based rendition of the New York Times Article Search application. This assignment requires you to create React components, work with helper functions, and utilize the React mounting lifecycle to query and display articles based on user searches. You'll also use Node, Express and MongoDB so that users can save articles to read later.
+React-based rendition of a New York Times Article Search application. This assignment contains React components, work with helper functions, and utilize the React mounting lifecycle to query and display articles based on user searches. Node, Express and MongoDB are also used.
 
-Instructions
+### Getting Started
+```
+- node.js: visit node.js and download...
+- mongodb: npm install -g mongodb
+```
 
-Check out this mockup image. This explains how your site's components should function.
+## Instructions I Followed
 
 Create a MongoDB database called nytreact.
 
@@ -24,11 +28,6 @@ url (URL of the article on nytimes.com)
 
 Creating documents in your articles collection similar to
 
-{
-  title: 'Ali Sells Jersey House And Moves to Chicago',
-  date: '1974-07-18T00:00:00Z',
-  url: 'http://query.nytimes.com/gst/abstract.html?res=9A0DE5D8173FEF34BC4052DFB166838F669EDE'
-}
 Create a Node/Express/MongoDB/ReactJS app called nytreact. This will be a recreation of the NYT Articles Search exercise application we built back in Week 6. Running this application will:
 
 Create a Bootstrap layout similar to that displayed in HW_Assignment.png. This should be a SPA (Single Page Application) that uses react-router to navigate, hide and show your React components without changing the route within Express.
@@ -55,3 +54,7 @@ Bonus Live Updates to Saved Articles
 Use React routing and socket.io to create a notification or a component that triggers whenever a user saves an article. Your message should include the title of the saved article.
 Say you have multiple browsers open, each one visiting your site. If you save an article in one browser, then all of your browsers should notify you that a new article was saved.
 Socket.io NPM package
+
+## Author
+
+Megan Liken
